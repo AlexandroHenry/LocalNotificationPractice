@@ -13,6 +13,7 @@
 		AAF9E9162994DE7600C683B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF9E9152994DE7600C683B6 /* Preview Assets.xcassets */; };
 		AAF9E9182994DE7600C683B6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9E9172994DE7600C683B6 /* Persistence.swift */; };
 		AAF9E91B2994DE7600C683B6 /* LocalNotificationPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAF9E9192994DE7600C683B6 /* LocalNotificationPractice.xcdatamodeld */; };
+		AAF9E9232995471000C683B6 /* LocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9E9222995471000C683B6 /* LocalNotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AAF9E9152994DE7600C683B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AAF9E9172994DE7600C683B6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AAF9E91A2994DE7600C683B6 /* LocalNotificationPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalNotificationPractice.xcdatamodel; sourceTree = "<group>"; };
+		AAF9E9222995471000C683B6 /* LocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		AAF9E90D2994DE7400C683B6 /* LocalNotificationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AAF9E9212995470000C683B6 /* View */,
 				AAF9E90E2994DE7400C683B6 /* LocalNotificationPracticeApp.swift */,
 				AAF9E9102994DE7400C683B6 /* ContentView.swift */,
 				AAF9E9122994DE7600C683B6 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				AAF9E9152994DE7600C683B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAF9E9212995470000C683B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9E9222995471000C683B6 /* LocalNotificationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF9E9232995471000C683B6 /* LocalNotificationView.swift in Sources */,
 				AAF9E9182994DE7600C683B6 /* Persistence.swift in Sources */,
 				AAF9E9112994DE7400C683B6 /* ContentView.swift in Sources */,
 				AAF9E90F2994DE7400C683B6 /* LocalNotificationPracticeApp.swift in Sources */,
